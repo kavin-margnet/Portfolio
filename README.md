@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Kavin's Portfolio
 
 Welcome to my portfolio website! I'm Kavin, a passionate **Frontend Web Developer** specializing in **Svelte** and **Tailwind CSS**. My goal is to build beautiful, responsive, and user-friendly websites.
@@ -62,3 +63,6 @@ Changes:
 Spacing and formatting: Adjusted line breaks for better readability.
 "Available Scripts" Section: Formatted the list with a code block for clarity.
 Updated LinkedIn URL: Ensured the correct LinkedIn profile link is reflected consistently.
+=======
+# Portfolio
+>>>>>>> origin/main

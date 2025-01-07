@@ -1,6 +1,10 @@
 {
   "name": "portfolio-website",
+<<<<<<< HEAD
   "homepage": "https://github.com/kavin-margnet.github.io/Portfolio/",
+=======
+  "homepage": "https://kavin-margnet.github.io/Portfolio/",
+>>>>>>> origin/main
   "private": true,
   "version": "0.0.0",
   "type": "module",

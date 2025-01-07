@@ -37,7 +37,11 @@ const Navbar = () => {
     setIsMenuOpen(false);
   };
 
+<<<<<<< HEAD
   const navItems = ['home', 'about', 'skills', 'portfolio', 'experience', 'contact'];
+=======
+  const navItems = ['home', 'about', 'skills', 'portfolio','experience', 'contact'];
+>>>>>>> origin/main
 
   return (
     <nav className="fixed top-0 left-0 right-0 bg-navy-900/90 backdrop-blur-sm z-50">
@@ -51,7 +55,10 @@ const Navbar = () => {
             <span className="text-cyan-400 text-xl font-bold">Kavin.</span>
           </motion.div>
           
+<<<<<<< HEAD
           {/* Mobile Menu Toggle Button */}
+=======
+>>>>>>> origin/main
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -61,7 +68,10 @@ const Navbar = () => {
             </button>
           </div>
 
+<<<<<<< HEAD
           {/* Desktop Menu */}
+=======
+>>>>>>> origin/main
           <div className="hidden md:block">
             <div className="flex space-x-8">
               {navItems.map((item, index) => (
@@ -92,11 +102,17 @@ const Navbar = () => {
         </div>
       </div>
 
+<<<<<<< HEAD
       {/* Mobile Menu */}
       <motion.div 
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: isMenuOpen ? 1 : 0, y: isMenuOpen ? 0 : -20 }}
         transition={{ duration: 0.3 }}
+=======
+      <motion.div 
+        initial={false}
+        animate={{ height: isMenuOpen ? 'auto' : 0 }}
+>>>>>>> origin/main
         className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden overflow-hidden`}
       >
         <div className="px-2 pt-2 pb-3 space-y-1 bg-navy-900/90 backdrop-blur-sm">
@@ -119,4 +135,8 @@ const Navbar = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Navbar;
+=======
+export default Navbar;
+>>>>>>> origin/main
