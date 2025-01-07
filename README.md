@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Kavin's Portfolio
 
 Welcome to my portfolio website! I'm Kavin, a passionate **Frontend Web Developer** specializing in **Svelte** and **Tailwind CSS**. My goal is to build beautiful, responsive, and user-friendly websites.
@@ -49,6 +48,7 @@ npm run build: Build the production version of the website.
 npm run lint: Run ESLint to check for code quality.
 npm run preview: Preview the production build locally.
 npm run deploy: Deploy the website to GitHub Pages.
+
 📫 Contact Me
 I'd love to connect with you! Feel free to reach out if you'd like to collaborate or have any questions:
 
@@ -59,10 +59,8 @@ LinkedIn: Kavinkumar Ramasamy
 
 Notes:
 LinkedIn:(https://www.linkedin.com/in/kavinkumar-ramasamy)
+
 Changes:
 Spacing and formatting: Adjusted line breaks for better readability.
 "Available Scripts" Section: Formatted the list with a code block for clarity.
 Updated LinkedIn URL: Ensured the correct LinkedIn profile link is reflected consistently.
-=======
-# Portfolio
->>>>>>> origin/main
