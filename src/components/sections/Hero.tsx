@@ -2,6 +2,7 @@ import React from "react";
 import { Download, Mail, Instagram, Github, Linkedin } from "lucide-react";
 
 const Hero = () => {
+  let bash='/Portfolio'
   return (
     <section
       id="home"
@@ -21,7 +22,7 @@ const Hero = () => {
           <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-6">
             {/* Download CV button */}
             <a
-              href="/path/to/sample-cv.pdf" // Change this to your actual file path
+              href={`${bash}/assets/resume/personal-resume.html`} // Change this to your actual file path
               download
               className="bg-cyan-400 text-navy-900 px-6 py-3 rounded-lg font-medium hover:bg-cyan-300 transition-colors flex items-center gap-2"
             >
@@ -48,7 +49,7 @@ const Hero = () => {
               <Instagram size={24} />
             </a> */}
             <a
-              href="https://www.github.com"
+              href="https://www.github.com/kavin-margnet"
               target="_blank"
               rel="noopener noreferrer"
               className="text-cyan-400 hover:text-cyan-300 transition-colors text-2xl"
@@ -57,7 +58,7 @@ const Hero = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/kavinkumar-ramasamy"
               target="_blank"
               rel="noopener noreferrer"
               className="text-cyan-400 hover:text-cyan-300 transition-colors text-2xl"

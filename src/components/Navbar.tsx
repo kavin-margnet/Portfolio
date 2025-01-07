@@ -37,7 +37,7 @@ const Navbar = () => {
     setIsMenuOpen(false);
   };
 
-  const navItems = ['home', 'about', 'skills', 'portfolio','experience', 'contact'];
+  const navItems = ['home', 'about', 'skills', 'portfolio', 'experience', 'contact'];
 
   return (
     <nav className="fixed top-0 left-0 right-0 bg-navy-900/90 backdrop-blur-sm z-50">
@@ -51,6 +51,7 @@ const Navbar = () => {
             <span className="text-cyan-400 text-xl font-bold">Kavin.</span>
           </motion.div>
           
+          {/* Mobile Menu Toggle Button */}
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -60,6 +61,7 @@ const Navbar = () => {
             </button>
           </div>
 
+          {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className="flex space-x-8">
               {navItems.map((item, index) => (
@@ -90,9 +92,11 @@ const Navbar = () => {
         </div>
       </div>
 
+      {/* Mobile Menu */}
       <motion.div 
-        initial={false}
-        animate={{ height: isMenuOpen ? 'auto' : 0 }}
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: isMenuOpen ? 1 : 0, y: isMenuOpen ? 0 : -20 }}
+        transition={{ duration: 0.3 }}
         className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden overflow-hidden`}
       >
         <div className="px-2 pt-2 pb-3 space-y-1 bg-navy-900/90 backdrop-blur-sm">
