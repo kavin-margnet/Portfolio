@@ -58,7 +58,7 @@ LinkedIn: Kavinkumar Ramasamy
 "Good code is its own best documentation." — Steve McConnell
 
 Notes:
-LinkedIn:(https://www.linkedin.com/in/kavinkumar-ramasamy)
+LinkedIn: https://www.linkedin.com/in/kavinkumar-ramasamy
 
 Changes:
 Spacing and formatting: Adjusted line breaks for better readability.
