@@ -1,12 +1,12 @@
 import React from 'react';
-import { Award, BookOpen, Coffee, Heart } from 'lucide-react';
+import { Award, BookOpen, Code, Layers } from 'lucide-react';
 
 const About = () => {
   const stats = [
     { icon: <Award size={24} />, value: '2+', label: 'Years Experience' },
-    { icon: <BookOpen size={24} />, value: '3+', label: 'Projects' },
-    { icon: <Coffee size={24} />, value: '500+', label: 'Coffee Cups' },
-    { icon: <Heart size={24} />, value: '10+', label: 'Happy Clients' },
+    { icon: <BookOpen size={24} />, value: '3+', label: 'Completed Projects' },
+    { icon: <Code size={24} />, value: '5+', label: 'Technologies Mastered' },
+    { icon: <Layers size={24} />, value: '2+', label: 'Frameworks Used' },
   ];
 
   return (
